@@ -1,0 +1,8 @@
+{
+  "client_id": "https://postreal-metac.github.io/isf-tracker-oauth/client.json",
+  "client_name": "ISF Tracker (local)",
+  "redirect_uris": ["http://localhost:8772/api/connect/radiant/callback"],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none"
+}
